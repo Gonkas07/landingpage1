@@ -165,3 +165,55 @@ body {
     color: #1F2937;
     font-size: 20px;
 }
+
+
+
+
+
+.part-4 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    gap: 50px;
+    border-radius: 3px;
+}
+
+.title-3 {
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.title-3-subtext {
+    color: #E5E7EB;
+}
+
+.button-2 {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 10px;
+    color: #F9FAF8;
+}
+
+.button-2:hover {
+    background-color: #95b6ee;
+    transition: 0,3s;
+}
+
+
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
